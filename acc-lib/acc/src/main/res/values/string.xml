@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emv_blocked_app">BLOCKED APPLICATION</string>
+    <string name="emv_no_app">NO APPLICATION</string>
+    <string name="emv_cless_trx_limit">CLESS OVER TRANSACTION LIMIT</string>
+    <string name="emv_missing_param">CLESS MISSING TAG</string>
+    <string name="emv_card_problems">CARD WITH PROBLEMS</string>
+    <string name="emv_show_card_again">TAP CARD AGAIN</string>
+    <string name="emv_double_card">TAP ONLY ONE CARD</string>
+    <string name="emv_kernel_error">KERNEL ERROR</string>
+    <string name="emv_activate_error">ERROR READING CARD</string>
+    <string name="emv_no_poweron">READING CARD ERROR.TRY SWIPE CARD</string>
+    <string name="emv_see_phone">SEE PHONE INSTRUCTIONS</string>
+    <string name="emv_card_not_supported">CARD NOT SUPPORTED</string>
+    <string name="emv_cless_tap_again">TAP CARD AGAIN</string>
+    <string name="remove_card">PLEASE, REMOVE CARD</string>
+</resources>

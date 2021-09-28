@@ -1,0 +1,31 @@
+/*
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+*/
+
+
+include ':acc-lib:ingp-dev-sdk'
+include ':acc-lib:ingp-payment-core'
+include ':acc-lib:ingp-secure-api'
+include ':acc-lib:ingp-secure-client-lib'
+include ':acc-lib:ingp-types'
+//include ':acc-lib:persistence'
+include ':acc-lib:utils'
+include ':acc-lib:bc-lib:bcapi-android'
+include ':acc-lib:bc-lib:bccommon-android'
+include ':acc-lib:bc-lib:bclib-apos'
+include ':acc-lib:bc-lib:dm-apos'
+include ':acc-lib:bc-lib:dxmobile'
+include ':acc-lib:bc-lib:sal-apos'
+
+include ':app'
+rootProject.name = "TestAplicaciones"
+
+include ':acc-lib:acc'
+

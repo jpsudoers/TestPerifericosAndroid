@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('bclib-apos-4.16-snapshot.aar'))

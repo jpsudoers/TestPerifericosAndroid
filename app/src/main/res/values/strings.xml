@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TestAplicaciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seleccione_color">Selecciona el color que corresponde</string>
+    <string name="btn_begin">Comenzar</string>
+    <string name="init_message">Bienvenido, presione comenzar para iniciar pruebas</string>
+    <string name="content_descripction">Vigatec Logo</string>
+    <string name="swipe_magnetic">Deslice Tarjeta</string>
+    <string name="read_chip">Inserte Tarjeta</string>
+    <string name="read_contactless">Acerque Tarjeta</string>
+</resources>

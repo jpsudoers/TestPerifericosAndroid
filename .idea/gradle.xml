@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/acc-lib" />
+            <option value="$PROJECT_DIR$/acc-lib/acc" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib/bcapi-android" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib/bccommon-android" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib/bclib-apos" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib/dm-apos" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib/dxmobile" />
+            <option value="$PROJECT_DIR$/acc-lib/bc-lib/sal-apos" />
+            <option value="$PROJECT_DIR$/acc-lib/ingp-dev-sdk" />
+            <option value="$PROJECT_DIR$/acc-lib/ingp-payment-core" />
+            <option value="$PROJECT_DIR$/acc-lib/ingp-secure-api" />
+            <option value="$PROJECT_DIR$/acc-lib/ingp-secure-client-lib" />
+            <option value="$PROJECT_DIR$/acc-lib/ingp-types" />
+            <option value="$PROJECT_DIR$/acc-lib/utils" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

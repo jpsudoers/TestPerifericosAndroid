@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentInicio">
+
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentInicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragmentTestDisplayCyan"
+            app:destination="@id/fragmentTestDisplayCyan" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestDisplayCyan"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestDisplayCyan"
+        android:label="fragment_test_display_cyan"
+        tools:layout="@layout/fragment_test_display_cyan" >
+        <action
+            android:id="@+id/action_fragmentTestDisplayCyan_to_fragmentTestDisplayMagenta"
+            app:destination="@id/fragmentTestDisplayMagenta" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestDisplayMagenta"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestDisplayMagenta"
+        android:label="fragment_test_display_magenta"
+        tools:layout="@layout/fragment_test_display_magenta" >
+        <action
+            android:id="@+id/action_fragmentTestDisplayMagenta_to_fragmentTestDisplayYellow"
+            app:destination="@id/fragmentTestDisplayYellow" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestDisplayYellow"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestDisplayYellow"
+        android:label="fragment_test_display_yellow"
+        tools:layout="@layout/fragment_test_display_yellow" >
+        <action
+            android:id="@+id/action_fragmentTestDisplayYellow_to_fragmentTestDisplayKey"
+            app:destination="@id/fragmentTestDisplayKey" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestDisplayKey"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestDisplayKey"
+        android:label="fragment_test_display_key"
+        tools:layout="@layout/fragment_test_display_key" >
+        <action
+            android:id="@+id/action_fragmentTestDisplayKey_to_fragmentTestMagStripe"
+            app:destination="@id/fragmentTestMagStripe" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestMagStripe"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestMagStripe"
+        android:label="fragment_test_mag_stripe"
+        tools:layout="@layout/fragment_test_mag_stripe" >
+        <action
+            android:id="@+id/action_fragmentTestMagStripe_to_fragmentTestChip"
+            app:destination="@id/fragmentTestChip" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestChip"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestChip"
+        android:label="fragment_test_chip"
+        tools:layout="@layout/fragment_test_chip" >
+        <action
+            android:id="@+id/action_fragmentTestChip_to_fragmentTestContactless"
+            app:destination="@id/fragmentTestContactless" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestContactless"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestContactless"
+        android:label="fragment_test_contactless"
+        tools:layout="@layout/fragment_test_contactless" >
+        <action
+            android:id="@+id/action_fragmentTestContactless_to_fragmentTestGprs"
+            app:destination="@id/fragmentTestGprs" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestGprs"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestGprs"
+        android:label="fragment_test_gprs"
+        tools:layout="@layout/fragment_test_gprs" >
+        <action
+            android:id="@+id/action_fragmentTestGprs_to_fragmentTestWifi"
+            app:destination="@id/fragmentTestWifi" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestWifi"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestWifi"
+        android:label="fragment_test_wifi"
+        tools:layout="@layout/fragment_test_wifi" >
+        <action
+            android:id="@+id/action_fragmentTestWifi_to_fragmentTestPrint"
+            app:destination="@id/fragmentTestPrint" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestPrint"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestPrint"
+        android:label="fragment_test_print"
+        tools:layout="@layout/fragment_test_print" >
+        <action
+            android:id="@+id/action_fragmentTestPrint_to_fragmentTestResult"
+            app:destination="@id/fragmentTestResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTestResult"
+        android:name="com.vigatec.testaplicaciones.fragment.FragmentTestResult"
+        android:label="fragment_test_result"
+        tools:layout="@layout/fragment_test_result" />
+</navigation>
